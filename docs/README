@@ -1,0 +1,70 @@
+Django Capstone Project
+
+********Description********
+
+This project is a Django-based web application designed as a capstone project. It includes functionalities to demonstrate the core features of Django and containerization using Docker.
+
+
+Getting Started
+********Prerequisites********
+
+Ensure you have the following installed:
+
+  > Python 3.x
+  > pip (Python package installer)
+  > Docker (if using Docker setup)
+
+********Setting Up with Virtual Environment********
+
+1. Clone the Repository
+
+2. Create and Activate a Virtual Environment
+
+3. Install Requirements
+
+4. Apply Migrations
+
+5. Run the Development Server
+   > Access the application at http://127.0.0.1:8000/.
+
+
+********Setting Up with Docker********
+
+1. Clone the Repository
+
+  > git clone https://github.com/yourusername/django-capstone.git
+  > cd django-capstone
+
+
+2. Build the Docker Image
+
+  > docker build -t django-capstone .
+
+3. Run the Docker Container
+
+  > docker run -p 8000:8000 django-capstone
+
+  > Access the application at http://127.0.0.1:8000/.
+
+********Configuration********
+
+********Environment Variables********
+
+This project requires environment variables for sensitive information. Create a .env file in the root directory with the following variables:
+
+DJANGO_SECRET_KEY=your_secret_key
+DATABASE_URL=your_database_url
+
+Ensure you do not commit this .env file to version control. Add it to .gitignore to keep it private.
+
+********Database Setup********
+
+If using Docker, the database configuration should be handled in the Dockerfile or docker-compose.yml if provided.
+
+********Documentation********
+
+The documentation is available in the docs directory and was generated using Sphinx.
+
+********Contributing********
+
+Feel free to fork this repository and submit pull requests. For major changes, please open an issue first to discuss what you would like to change.
