@@ -1,5 +1,19 @@
 Personal Portfolio of Asandile Nkala
 
+- Python 3.11
+- Docker
+- Virtualenv
+
+## Setting Up the Project
+
+### Using Virtualenv
+
+1. Create and activate a virtual environment:
+   ```bash
+   python3 -m venv env
+   source env/bin/activate  # On Windows use `env\Scripts\activate`
+   
+
 Welcome to my personal portfolio! This repository contains the source code for my portfolio website, showcasing my projects, skills, and experiences as a software developer.
 
 About Me
