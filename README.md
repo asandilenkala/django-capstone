@@ -24,15 +24,11 @@ To run this application using Docker, follow these steps:
     Build the Docker Image
         Open your terminal, navigate to the project root directory, and run the following command:
 
-        bash
-
     docker build -t asandile/portfolio_image .
 
 Run the Docker Container
 
     Once the image is built, you can run it with this command:
-
-    bash
 
     docker run -d -p 8000:8000 asandile/portfolio_image
 
